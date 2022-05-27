@@ -12,4 +12,6 @@ Alfikra Muhammad (1836031)
 
 ## Kampung Desa Clinic System
 
-## 
+## Introduction
+
+## Objectve
