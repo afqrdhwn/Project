@@ -20,9 +20,9 @@ Alfikra Muhammad (1836031)
 
   
 ## Features and Functionalities
-1. Register for staff and customer
+1. Register for staff and Patient
 
-Before using the web application, staff and customers must register and login to the page. only then can he access the features in the web app
+Before using the web application, staff and patient must register and login to the page. only then can he access the features in the web app
 
 2. Health record
 
@@ -30,15 +30,15 @@ In the application, we provide health records. This feature is used by staff to 
 
 3. Health assessment 
 
-Health assessment contains the patient's condition day by day. Are they getting worse or better.
+Health assessment contains the patient's condition day by day. Are they getting worse or better. 
 
 4. Medicine Info
 
-On the Medicine Info page. We provide a list of available drugs. So that we can immediately restock if the medicine runs out
+On the Medicine Info page. We provide a list of available drugs. So that we can immediately restock if the medicine runs out. 
 
 5. Appointment
 
-Before coming to the clinic, the customer must make an appointment first. They can go directly to the clinic to make an appointment or call the clinic number. Then, the data provided by the patient will be entered into the application system by the staff in charge.
+Before coming to the clinic, the customer must make an appointment first. They can go directly to the clinic to make an appointment or call the clinic number. Then, the data provided by the patient will be entered into the application system by the staff in charge. But, patient can also register themselves if they want
 
 ## Mockup
 ![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
