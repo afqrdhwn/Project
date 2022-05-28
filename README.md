@@ -29,7 +29,7 @@ Health assessment contains the patient's condition day by day. Are they getting 
 4. Medicine Info
 On the Medicine Info page. We provide a list of available drugs. So that we can immediately restock if the medicine runs out
 5. Appointment
-Before coming to the clinic, the customer must make an appointment first. They can go directly to the clinic to make an appointment or call the clinic number. Then, the data provided by the patient will be entered into the application system by the staff in charge.
+ Before coming to the clinic, the customer must make an appointment first. They can go directly to the clinic to make an appointment or call the clinic number. Then, the data provided by the patient will be entered into the application system by the staff in charge.
 
 ## Mockup
 ![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
