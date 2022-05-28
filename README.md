@@ -14,8 +14,11 @@ Alfikra Muhammad (1836031)
 
 ## Introduction
 
+  Today technologies are better than yesterday. Technology keep growth everyday and keep improving. There are a gap in technology between urban and rural. In urban place, nearly everyday we imporve our science and technology, however in rural place they are still at 2010 set up. For instance in medical, education, management and others. 
+  
 ## Objectve
 
+  
 ## Features and Functionalities
 1. Register for staff and customer
 2. Health record
