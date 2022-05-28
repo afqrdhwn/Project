@@ -29,7 +29,7 @@ Kampung Desa Clinic System
 5. Appointment
 
 ## Website Sequence Diagram
-
+![seq diagram](https://user-images.githubusercontent.com/103871912/170830898-c69b4788-f673-4de7-9023-80b642513aa1.PNG)
 
 ## Mockup
 ![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
