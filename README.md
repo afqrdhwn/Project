@@ -21,12 +21,15 @@ Kampung Desa Clinic System
 2. Mobility to staff and customer
 3. Optimize work and data flow
   
-### Features and Functionalities
+## Features and Functionalities
 1. Register for staff and customer
 2. Health record
 3. Health assessment 
 4. Medicine Info
 5. Appointment
+
+## Website Sequence Diagram
+
 
 ## Mockup
 ![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
