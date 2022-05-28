@@ -15,3 +15,5 @@ Alfikra Muhammad (1836031)
 ## Introduction
 
 ## Objectve
+
+## Features and functionalities
