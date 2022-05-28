@@ -1,4 +1,6 @@
-## Group 5 Members
+# Group Project Proposal
+
+## Group Members
 
 Mohd Afiq Ridhwan bin Rosli (2014161)
 
