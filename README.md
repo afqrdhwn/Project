@@ -14,31 +14,21 @@ Alfikra Muhammad (1836031)
 
 ## Introduction
 
-  Today technologies are better than yesterday. Technology keep growth everyday and keep improving. There are a gap in technology between urban and rural. In urban place, nearly everyday we imporve our science and technology, however in rural place they are still at 2010 set up. For instance in medical, education, management and others. 
+  Today's technologies are better than yesterday. Technology evolves and improves on a daily basis. Between urban and rural areas, there is a technological divide. Nearly every day, we improve our science and technology in urban areas. However, they are still 2010 in rural areas. For example, the medical institution still stores information in files and on paper. This should be a matter of concern, and attention should be paid to it. Data stored in files and paper can cause data loss, fraud, and big data problem. 
   
-## Objectve
-
+  This concept focuses on creating a web application for a clinic in a rural region, as well as a platform that provides services to the employees. For example, keep track of your employees and customers. In remote areas, medical centres still maintain a paper-based system, which this system may replace and make it easier for staff to register customers or new employees.
+  
+## Objectve 
+1. Improve data storing
+2. Mobility to staff and customer
+3. Optimze
   
 ## Features and Functionalities
-1. Register for staff and Patient
-
-Before using the web application, staff and patient must register and login to the page. only then can he access the features in the web app
-
+1. Register for staff and customer
 2. Health record
-
-In the application, we provide health records. This feature is used by staff to record patient data and important information.
-
 3. Health assessment 
-
-Health assessment contains the patient's condition day by day. Are they getting worse or better. 
-
 4. Medicine Info
-
-On the Medicine Info page. We provide a list of available drugs. So that we can immediately restock if the medicine runs out. 
-
 5. Appointment
-
-Before coming to the clinic, the customer must make an appointment first. They can go directly to the clinic to make an appointment or call the clinic number. Then, the data provided by the patient will be entered into the application system by the staff in charge. But, patient can also register themselves if they want
 
 ## Mockup
 ![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
