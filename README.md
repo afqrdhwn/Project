@@ -18,10 +18,10 @@ Alfikra Muhammad (1836031)
   
   This concept focuses on creating a web application for a clinic in a rural region, as well as a platform that provides services to the employees. For example, keep track of your employees and customers. In remote areas, medical centres still maintain a paper-based system, which this system may replace and make it easier for staff to register customers or new employees.
   
-## Objectve 
+## Objective 
 1. Improve data storing
 2. Mobility to staff and customer
-3. Optimze
+3. Optimize work and data flow
   
 ## Features and Functionalities
 1. Register for staff and customer
