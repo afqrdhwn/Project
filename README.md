@@ -2,15 +2,11 @@
 
 ## Group Members
 
-Mohd Afiq Ridhwan bin Rosli (2014161)
-
-Muhammad Afiq Bin Abdul Patah (1917837)
-
-Afnan Iman bin Azman (1902311)
-
-Zahra Fathanah (2019050)
-
-Alfikra Muhammad (1836031)
+1. Mohd Afiq Ridhwan bin Rosli (2014161)
+2. Muhammad Afiq Bin Abdul Patah (1917837)
+3. Afnan Iman bin Azman (1902311)
+4. Zahra Fathanah (2019050)
+5. Alfikra Muhammad (1836031)
 
 ## Title
 Kampung Desa Clinic System
