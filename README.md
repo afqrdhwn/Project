@@ -16,4 +16,9 @@ Alfikra Muhammad (1836031)
 
 ## Objectve
 
-## Features and functionalities
+## Features and Functionalities
+1. Register for staff and customer
+2. Health record
+3. Health assessment 
+4. Medicine Info
+5. Appointment
