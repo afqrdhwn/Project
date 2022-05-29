@@ -28,6 +28,9 @@ Kampung Desa Clinic System
 4. Medicine Info
 5. Appointment
 
+##Website definition
+###Views
+
 ## Website Sequence Diagram
 ![seq diagram](https://user-images.githubusercontent.com/103871912/170830898-c69b4788-f673-4de7-9023-80b642513aa1.PNG)
 
