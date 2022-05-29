@@ -28,7 +28,7 @@ Kampung Desa Clinic System
 4. Medicine Info
 5. Appointment
 
-## Views
+## Description
   The views file will contain the homepage and the welcome page. On visiting the website, visitors are routed to the welcome page where they are presented with a sign up form along with a log in option. Upon logging in, the visitors are brought to the home page which is the the appointment page by default, in this page, customers are able to view their upcoming appointments or book an appointment. A top navigation bar is also provided for customers to navigate to medicine info, health assessment and health record. There is also a side navigation bar for customers to go to their profile, settings and allow the customer to log out.
   
  ## Entity relationship diagram
