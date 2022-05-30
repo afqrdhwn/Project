@@ -70,3 +70,6 @@ Kampung Desa Clinic System
 ![Medicine Info](https://user-images.githubusercontent.com/104018700/170817494-0f72d282-77f0-4843-80dc-e0bba3c2f4b8.png)
 ![LogoutPHP](https://user-images.githubusercontent.com/104018700/170817493-dcdb544a-5c1c-4d15-b9e3-dd65fba0aea2.png)
 
+## Presentation link
+https://youtu.be/Yc7YArIsyFY
+
