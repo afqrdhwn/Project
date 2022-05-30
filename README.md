@@ -31,6 +31,29 @@ Kampung Desa Clinic System
 ## Description
   The views file will contain the homepage and the welcome page. On visiting the website, visitors are routed to the welcome page where they are presented with a sign up form along with a log in option. Upon logging in, the visitors are brought to the home page which is the the appointment page by default, in this page, customers are able to view their upcoming appointments or book an appointment. A top navigation bar is also provided for customers to navigate to medicine info, health assessment and health record. There is also a side navigation bar for customers to go to their profile, settings and allow the customer to log out.
   
+### Views
+signup.blade.php
+login.blade.php
+profile.blade.php
+appointment.blade.php
+assesment.blade.php
+record.blade.php
+medcine.blade.php
+
+### Controllers
+Controller.php
+PatientController.php
+StaffController.php
+
+### Routes
+api.php
+channels.php
+console.php
+web.php
+
+### Models
+User.php
+  
  ## Entity relationship diagram
   ![Entity relationship diagram](https://user-images.githubusercontent.com/103879224/170877503-d8fc0855-f3b6-47d2-b964-6f6cd22c0794.png)
 
