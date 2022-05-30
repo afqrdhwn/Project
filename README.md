@@ -38,7 +38,7 @@ Kampung Desa Clinic System
 - appointment.blade.php
 - assessment.blade.php
 - record.blade.php
-- medcine.blade.php
+- medicine.blade.php
 
 ### Controllers
 - Controller.php
