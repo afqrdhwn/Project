@@ -11,11 +11,12 @@
   <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">-->
 
     <style>
+
   .medicine {
     border-radius: 25px;
     background-color: white;
     padding: 20px;
-    margin: 50px;
+    margin-top: 10px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   }
   h1{
@@ -92,76 +93,92 @@ a:visited {
                          <th>Name</th>
                          <th>Details</th>
                          <th>Warning</th>
+                         <th>Price</th>
+                         <th>Stock</th>
                        </tr>
                        <tr>
                          <td>Amoxicillin</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Amoxicillin is a penicillin antibiotic that fights bacteria.
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Amoxicillin is a penicillin antibiotic that fights bacteria.
                              It us to treat many different types of infection caused by bacteria, such as tonsillitis, bronchitis, pneumonia,
                              and infections of the ear, nose, throat, skin, or urinary tract.</div>
                          </td>
-                         <td class="warning">Do not use this medication if you are allergic to amoxicillin or to any other penicillin antibiotic.</td>
+                         <td class="warning">Do not use this medication if you are allergic to amoxicillin or to any other penicillin antibiotic</td>
+                         <td>$10/4 capsule</td>
+                         <td>203</td>
                        </tr>
                        <tr>
                          <td>Paracetamol</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Paracetamol is a pain reliever and a fever reducer.
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Paracetamol is a pain reliever and a fever reducer.
                              To treat many conditions such as headache, muscle aches, arthritis, backache, toothaches, colds, and fevers.</div>
                          </td>
                          <td class="warning">An overdose of paracetamol can cause serious harm and could cause damage to your liver.
-                           The maximum amount of paracetamol for adults is 4 grams (4000 mg) per DAY.
-                           </td>
+                           The maximum amount of paracetamol for adults is 4 grams (4000 mg) per DAY</td>
+                           <td>$8.41/500 Mg</td>
+                           <td>378</td>
                        </tr>
                        <tr>
                          <td>Bryhali</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Bryhali helps reduce inflammation in the body.
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Bryhali helps reduce inflammation in the body.
                              It used to treat inflammation and itching caused by plaque psoriasis or skin conditions that respond to steroid medication.
                              Bryhali may also be used for purposes not listed in this medication guide.</div>
                          </td>
                          <td class="warning">You should not use halobetasol if you are allergic to it</td>
+                         <td>$310/60 Gr</td>
+                         <td>329</td>
                        </tr>
                        <tr>
                          <td>Bystolic</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Bystolic is used to treat hypertension (high blood pressure).
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Bystolic is used to treat hypertension (high blood pressure).
                             </div>
-                             <td class="warning">Do not skip doses or stop taking Bystolic without first talking to your doctor. It can impact to you heart</td>
                          </td>
+                         <td class="warning">Do not skip doses or stop taking Bystolic without first talking to your doctor. It can impact to you heart</td>
+                         <td>$184/10 Mg</td>
+                         <td>112</td>
                        </tr>
                        <tr>
                          <td>Casodex</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Casodex is used to treat prostate cancer that has spread to other parts of the body (metastatic) and
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Casodex is used to treat prostate cancer that has spread to other parts of the body (metastatic) and
                              to treat prostate cancer that has spread to other parts of the body (metastatic).</div>
                          </td>
                          <td class="warning">This medicine should never be taken by a woman or a child.</td>
+                         <td>$161.05/50 Mg</td>
+                         <td>130</td>
                        </tr>
                        <tr>
                          <td>Umbralisib</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Umbralisib is used to treat certain types of lymphoma in adults
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Umbralisib is used to treat certain types of lymphoma in adults
                            </div>
                          </td>
                          <td class="warning">Umbralisib affects your immune system. You may get infections more easily, even serious or fatal infections.</td>
+                         <td>$16,752/200 Mg</td>
+                         <td>256</td>
                        </tr>
                        <tr>
                          <td>Focalin</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Focalin is a prescription medicine used to treat attention deficit
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Focalin is a prescription medicine used to treat attention deficit
                              hyperactivity disorder (ADHD). Focalin should be used as a part of a total treatment program for ADHD that
                              may include counseling or other therapies.</div>
                          </td>
-                         <td class="warning">Focalin may cause new or worsening psychosis, especially if you have a history of depression, mental illness, or bipolar disorder.
-                         </td>
+                         <td class="warning">Focalin may cause new or worsening psychosis, especially if you have a history of depression, mental illness, or bipolar disorder.</td>
+                         <td>$1,345/100 capsules</td>
+                         <td>321</td>
                        </tr>
                        <tr>
                          <td>Herceptin</td>
                          <td>
-                           <div style="text-align: left"class="sparkbar" data-color="#00a65a" data-height="20">Herceptin is a cancer medicine.
+                           <div style="text-align: left"class="sparkbar" data-color="#00a65a">Herceptin is a cancer medicine.
                              Herceptin is used to treat certain types of breast cancer or stomach cancer.</div>
                          </td>
                          <td class="warning">Do not use Herceptin if you are pregnant.</td>
+                         <td>$1.651/150 Mg injectiong</td>
+                         <td>284</td>
                        </tr>
                      </table>
                </div>
@@ -186,6 +203,7 @@ a:visited {
         function closeForm() {
         document.getElementById("myForm").style.display = "none";
         }
+
     </script>
 </body>
 </html>
