@@ -177,7 +177,7 @@ a:visited {
                              Herceptin is used to treat certain types of breast cancer or stomach cancer.</div>
                          </td>
                          <td class="warning">Do not use Herceptin if you are pregnant.</td>
-                         <td>$1.651/150 Mg injectiong</td>
+                         <td>$1.651/150 Mg injection</td>
                          <td>284</td>
                        </tr>
                      </table>
