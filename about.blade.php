@@ -94,10 +94,6 @@
          <p>1902311</p>
        </div>
        <div class="team">
-         <p>Muhammad Afiq Bin Abdul Patah</p>
-         <p>1917837</p>
-       </div>
-       <div class="team">
          <p>Zahra Fathanah</p>
          <p>2019050</p>
        </div>
