@@ -132,7 +132,7 @@ a:visited {
                                       </div>
                                 </td>
                             </tr>
-                        <?php endwhile; ?>
+                   
                     </tbody>
                 </table>
             </div>
