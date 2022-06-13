@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title img src="img/hospital">Clinic | Medicine Info</title>
+        <title img src="img/hospital">Clinic | Appointment</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
+   body {background-image: url('backgroundimg.jpg')}
   .medicine {
     border-radius: 25px;
     background-color: white;
@@ -65,6 +66,18 @@ a:visited {
 }
   </style>
     </head>
+    <header>
+        <a href="#" class="logo"><img src="img/hospital.png" style="width: 45px; height: 45px;"></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="http://127.0.0.1:8000/" onclick="toggleMenu();"><b>Homepage</b></a></li>
+            <li><a href="#" onclick="toggleMenu();"><b>Appointment</b></a></li>
+            <li><a href="#" onclick="toggleMenu();"><b>Health Assessment</b></a></li>
+            <li><a href="#" onclick="toggleMenu();"><b>Health Record</b></a></li>
+            <li><a href="http://127.0.0.1:8000/medicine" onclick="toggleMenu();"><b>Medicine Info</b></a></li>
+            <li><a href="http://127.0.0.1:8000/about" onclick="toggleMenu();"><b>About</b></a></li>
+        </ul>
+    </header>
     <div class="card card-outline card-primary">
         <div class="card-header">
             <h3 class="card-title">List of Appointments</h3>
@@ -100,26 +113,30 @@ a:visited {
                                     <input type="checkbox" class="form-check-input" id="selectAll">
                                 </div></td>
                             <th class="text-center">#</th>
-                            <th>Name</th>
-                            <th>Schedule</th>
-                            <th>Status</th>
-                            <th>Action</th>
+                            <th>Appointment no.</th>
+                            <th>Patient ID</th>
+                            <th>Date</th>
+                            <th>Time</th>
                         </tr>
                     </thead>
                     <tbody>
+                    <!-- SQL -->
                         <?php
-                            $qry = $conn->query("SELECT  ");        <!--fill in with database-->
+                        $i = 1;
+                            $qry = $conn->query("SELECT appt_no, patient_id, appt_date, appt_time");
+                            while($row = $qry->fetch_assoc()):
                         ?>
 
                             <tr>
                                 <td class="text-center">
                                 <div class="form-check">
-                                    <input type="checkbox" class="form-check-input invCheck" value="<?php echo $row['id'] ?>">
+                                    <input type="checkbox" class="form-check-input invCheck" value="<?php echo $row['appt_no'] ?>">
                                 </div>
                                 </td>
                                 <td class="text-center"><?php echo $i++; ?></td>
-                                <td><?php echo $row['name'] ?></td>
-                                <td><?php echo date("M d,Y h:i A",strtotime($row['date_sched'])) ?></td>
+                                <td><?php echo $row['patient_id'] ?></td>
+                                <td><?php echo date("M d,Y h:i A",strtotime($row['appt_date'])) ?></td>
+                                <td><?php echo $row['appt_time'] ?></td>
                                 <td align="center">
                                      <button type="button" class="btn btn-flat btn-default btn-sm dropdown-toggle dropdown-icon" data-toggle="dropdown">
                                               Action
