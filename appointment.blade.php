@@ -9,7 +9,12 @@
         <style>
             html{line-height:1.15;-webkit-text-size-adjust:100%}
             body {background-image: url('backgroundimg.jpg')}
-            
+            .Bubble {
+            border-radius: 25px;
+            background-color: white;
+            padding: 20px;
+            margin-top: 10px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         </style>
 
     </head>
@@ -26,14 +31,10 @@
         </ul>
     </header>
     <div class="card card-outline card-primary">
-        <div class="card-header">
+        <div class="Bubble">
             <h3 class="card-title">List of Appointments</h3>
-            <div class="card-tools">
-                <!--"create new appointment" button-->
-                <a href="javascript:void(0)" id="create_new" class="btn btn-flat btn-primary"><span class="fas fa-plus"></span>  Create New</a>
-            </div>
         </div>
-        <div class="card-body">
+        <div class="Bubble">
             <div class="container-fluid">
                 <div class="row" style="display:none" id="selected_opt">
                     <div class="w-100 d-flex">
@@ -98,7 +99,18 @@
                             </tr>
                    
                     </tbody>
-                </table>
+                </table>  
+                <div class="Bubble">
+                <h2> Create a new appointment
+                <form action="/appointment.php">
+                <label for="appt_date">Appointment date:</label>
+                <input type="date" id="appt_date" name="appt_date">
+                <label for="appt_time">Last name:</label><br>
+                <input type="int" id="appt_time" name="appt_time"><br><br>
+                <input type="submit" value="Submit">
+                </form> 
+            </div>
             </div>
         </div>
     </div>
+    
