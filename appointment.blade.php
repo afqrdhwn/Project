@@ -3,68 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title img src="img/hospital">Clinic | Appointment</title>
-
-        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
         <!-- Styles -->
         <style>
-   body {background-image: url('backgroundimg.jpg')}
-  .medicine {
-    border-radius: 25px;
-    background-color: white;
-    padding: 20px;
-    margin: 50px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  }
-  h1{
-    padding: 15px;
-  }
-  .warning{
-    color: red;
-  }
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    border-radius: 10px;
-  }
-  td{
-    text-align: left;
-    padding: 8px;
-  }
-  th{
-    text-align: center;
-    padding: 8px;
-  }
-  tr:nth-child(even) {
-    border-radius: 10px;
-    background-color: #abc3fa;
-  }
-.btn{
-  margin-right: 50px;
-  float: right;
-  border: none;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  background-color: #233862;
-  border-radius: 8px;
-}
-a:link {
-  color: #abc3fa;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-  </style>
+            html{line-height:1.15;-webkit-text-size-adjust:100%}
+            body {background-image: url('backgroundimg.jpg')}
+            
+        </style>
+
     </head>
     <header>
         <a href="#" class="logo"><img src="img/hospital.png" style="width: 45px; height: 45px;"></a>
