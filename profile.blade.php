@@ -37,33 +37,46 @@
     </header>
     <h1 style="text-align: left;" >Profile</h1><hr><br>
     <?php
-        $qry = $conn->query("SELECT id, name, email, phoneno, gender, religion, birthdate, address);
-        while($row = $qry->fetch_assoc()):
-        ?>
+    $servername = "localhost";
+    $username = "username";
+    $password = "password";
+    $dbname = "myDB";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+    }
+
+    $sql = "SELECT id, name, email, phoneno, gender, religion, birthdate, address FROM profile";
+    $result = $conn->query($sql);
+    while($row = $result->fetch_assoc()):
+    ?>
         
     <div class="Bubble">
-    <p> ID : <?php echo $row['patient_id'] ?></p>
+    <p> ID : <?php echo $profile['patient_id'] ?></p>
     </div>
     <div class="Bubble">
-    <p> Name : <?php echo $row['name'] ?></p>
+    <p> Name : <?php echo $profile['name'] ?></p>
     </div>
     <div class="Bubble">
-    <p> email : <?php echo $row['email'] ?></p>
+    <p> email : <?php echo $profile['email'] ?></p>
     </div>
     <div class="Bubble">
-    <p> Phone no : <?php echo $row['phoneno'] ?></p>
+    <p> Phone no : <?php echo $profile['phoneno'] ?></p>
     </div>
     <div class="Bubble">
-    <p> Gender : <?php echo $row['gender'] ?></p>
+    <p> Gender : <?php echo $profile['gender'] ?></p>
     </div>
     <div class="Bubble">
-    <p> Religion : <?php echo $row['religion'] ?></p>
+    <p> Religion : <?php echo $profile['religion'] ?></p>
     </div>
     <div class="Bubble">
-    <p> Birthdate : <?php echo $row['birthdate'] ?></p>
+    <p> Birthdate : <?php echo $profile['birthdate'] ?></p>
     </div>
     <div class="Bubble">
-    <p> Address : <?php echo $row['address'] ?></p>
+    <p> Address : <?php echo $profile['address'] ?></p>
     </div>
  </body>
  </html>
