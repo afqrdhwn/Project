@@ -18,6 +18,7 @@
         </style>
 
     </head>
+    <body
     <header>
         <a href="#" class="logo"><img src="img/hospital.png" style="width: 45px; height: 45px;"></a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
@@ -101,16 +102,27 @@
                     </tbody>
                 </table>  
                 <div class="Bubble">
-                <h2> Create a new appointment
-                <form action="/appointment.php">
-                <label for="appt_date">Appointment date:</label>
-                <input type="date" id="appt_date" name="appt_date">
-                <label for="appt_time">Last name:</label><br>
-                <input type="int" id="appt_time" name="appt_time"><br><br>
-                <input type="submit" value="Submit">
-                </form> 
+                <h2> Create a new appointment </h2>
+                <form action="welcome.php" method="post">
+                Date : <input type="text" name="Date"><br>
+                Time: <input type="text" name="Time"><br>
+                <input type="submit">
+                </form>
+                <?php
+                $sql = "INSERT INTO appointment (date, time)
+                VALUES ('John', 'Doe', 'john@example.com');";
+
+                if ($conn->multi_query($sql) === TRUE) {
+                  echo "Appointment booked";
+                } else {
+                  echo "Error: " . $sql . "<br>" . $conn->error;
+                }
+
+                $conn->close();
+                ?>
             </div>
             </div>
         </div>
     </div>
+    </body>
     
