@@ -155,38 +155,3 @@ a:visited {
             </div>
         </div>
     </div>
-    <script>
-        var indiList;
-        $(document).ready(function(){
-            $('.view_data').click(function(){
-                uni_modal("Appointment Details","appointments/view_details.php?id="+$(this).attr('data-id'))
-            })
-            $('#create_new').click(function(){
-                uni_modal("Appointment Form","appointments/manage_appointment.php",'mid-large')
-            })
-            $('.edit_data').click(function(){
-                uni_modal("Edit Appointment Details","appointments/manage_appointment.php?id="+$(this).attr('data-id'),'mid-large')
-            })
-            $('#selectAll').change(function(){
-                // if($(this).is(":checked") == true){
-                // 	$('.invCheck').prop("checked",true)
-                // }else{
-                // 	$('.invCheck').prop("checked",false)
-                // }
-                var _this = $(this)
-                count = indiList.api().rows().data().length
-                for($i = 0 ; $i < count; $i++){
-                    var node = indiList.api().row($i).node()
-                    console.log($(node).find('.invCheck'))
-                    if(_this.is(":checked") == true){
-                        $(node).find('.invCheck').prop("checked",true)
-                        $('#selected_opt').show('slow')
-                    }else{
-                        $(node).find('.invCheck').prop("checked",false)
-                        $('#selected_opt').hide('slow')
-                    }
-                }
-            })
-
-        })
-    </script>
