@@ -37,18 +37,6 @@
     </header>
     <h1 style="text-align: left;" >Profile</h1><hr><br>
     <?php
-    $servername = "localhost";
-    $username = "username";
-    $password = "password";
-    $dbname = "myDB";
-
-    
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    
-    if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-    }
-
     $sql = "SELECT id, name, email, phoneno, gender, religion, birthdate, address FROM profile";
     $result = $conn->query($sql);
     while($row = $result->fetch_assoc()):
