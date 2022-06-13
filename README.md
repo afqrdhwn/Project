@@ -1,4 +1,3 @@
-# Group Project Proposal
 
 ## Group 5 Members
 
@@ -61,7 +60,8 @@ Kampung Desa Clinic System
 
 
 ## Sequence Diagram
-![seq diagram](https://user-images.githubusercontent.com/103871912/170830898-c69b4788-f673-4de7-9023-80b642513aa1.PNG)
+![Appoinment](https://user-images.githubusercontent.com/103871912/173393440-e4aa46a4-ea4f-458b-8e72-7b7e1317efb4.jpg)
+
 
 ## Mockup
 ![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
