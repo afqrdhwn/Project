@@ -83,13 +83,10 @@ Kampung Desa Clinic System
 - patient.php
   
  ## Entity relationship diagram
-  ![Entity relationship diagram](https://user-images.githubusercontent.com/103879224/170877503-d8fc0855-f3b6-47d2-b964-6f6cd22c0794.png)
-
-
-## Sequence Diagram
 ![erd](https://user-images.githubusercontent.com/103871912/173637598-20e2f8d8-651b-40ae-9715-910139a27586.jpg)
 
-
+## Sequence Diagram
+![Appoinment](https://user-images.githubusercontent.com/103871912/173637835-23c1bd69-25bb-419f-8379-6e34179050f7.jpg)
 
 ## Mockup
 ![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
