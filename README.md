@@ -33,17 +33,39 @@ Kampung Desa Clinic System
   The views file will contain the homepage and the welcome page. On visiting the website, visitors are routed to the welcome page where they are presented with a loh in form along with a sign up option. Upon logging in, the user are brought to the home page , in this page, users are able to choose their prefered page to go to. A top navigation bar is also provided for users to navigate to medicine info, new patient, appointment, homepage, health assessment and health record. There is also a dropdown bar for users to go to their profile, about the system and allow the users to log out.
   
 ### Views
-- signup.blade.php
-- login.blade.php
+- layouts/app.blade.php
+- auth/login.blade.php
+- auth/register.blade.php
+- auth/verify.blade.php
+- auth/passwords/confirm.blade.php
+- auth/passwords/email.blade.php
+- auth/passwords/reset.blade.php
+- patient.blade.php
+- about.blade.php
+- home.blade.php
+- navbar.blade.php
 - profile.blade.php
 - appointment.blade.php
 - assessment.blade.php
 - record.blade.php
 - medicine.blade.php
+- newappointment.blade.php
 
 ### Controllers
+- auth/ConfirmPasswordController.php
+- auth/ForgotPasswordController.php
+- auth/LoginController.php
+- auth/RegisterController.php
+- auth/ResetPasswordController.php
+- auth/VerificationController.php
 - Controller.php
 - PatientController.php
+- AppointmentController.php
+- AssessmentController.php
+- HomeController.php
+- MedicineController.php
+- RecordController.php
+- UserController.php
 - StaffController.php
 
 ### Routes
@@ -54,6 +76,11 @@ Kampung Desa Clinic System
 
 ### Models
 - User.php
+- appointment.php
+- health_assessment.php
+- health_record.php
+- medicine_info.php
+- patient.php
   
  ## Entity relationship diagram
   ![Entity relationship diagram](https://user-images.githubusercontent.com/103879224/170877503-d8fc0855-f3b6-47d2-b964-6f6cd22c0794.png)
@@ -72,5 +99,5 @@ Kampung Desa Clinic System
 ![Medicine Info](https://user-images.githubusercontent.com/104018700/170817494-0f72d282-77f0-4843-80dc-e0bba3c2f4b8.png)
 ![LogoutPHP](https://user-images.githubusercontent.com/104018700/170817493-dcdb544a-5c1c-4d15-b9e3-dd65fba0aea2.png)
 
-## Presentation
+## Proposal Presentation
 https://youtu.be/Yc7YArIsyFY
