@@ -1,0 +1,319 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+p
+{
+    font-weight: 300;
+    color: #111;
+}
+.menu
+{
+    background: url(img/background.jpg);
+    background-size: cover;
+}
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box
+{
+    width: 240px;
+    margin: 20px;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 35px rgba(50, 75, 99, 0.8);
+    border-radius: 10px;
+}
+.menu .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.menu .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .text
+{
+    padding: 15px 0 15px;
+    background-color: #fff;
+}
+.menu .content .box .text h3
+{
+    font-weight: 400;
+    color: #233862;
+    text-align: center;
+}
+.btn
+{
+    font-size: 1em;
+    color: #233862;
+    background: white;
+    text-transform: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    letter-spacing: 2px;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky
+{
+    background: #233862;
+    padding: 10px 100px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+header .logo
+{
+    color: #233862;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo
+{
+    color: white;
+}
+header .logo span
+{
+    color: white;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: #233862;
+    font-weight: 100;
+    nav-down: auto;
+}
+header.sticky .navigation li a
+{
+    color: white;
+}
+header .navigation li a:hover
+{
+    color: rgb(216, 135, 48);
+}
+section
+{
+    padding: 100px;
+}
+.titleText
+{
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+.titleText span
+{
+    font-family: 'Poppins', sans-serif;
+    color: #233862;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.titleText2
+{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 300;
+    text-align: center;
+}
+.titleText2 span
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+}
+.titleText1
+{
+    font-family: 'Poppins', sans-serif;
+    color: #233862;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width: 991px)
+{
+    header,
+    header.sticky
+    {
+        padding: 10px 20px;
+    }
+    header .navigation
+    {
+        display: none;
+    }
+    header .navigation.active
+    {
+        width: 100%;
+        height: calc(100% - 68px);
+        position: fixed;
+        top: 68px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background:#233862;
+    }
+    header .navigation li
+    {
+        margin-left: 0;
+    }
+    header .navigation li a
+    {
+        color: white;
+        font-size: 1.6em;
+    }
+    .menuToggle
+    {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(img/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    .menuToggle.active
+    {
+        background: url(img/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header.sticky .menuToggle
+    {
+        filter: invert(1);
+    }
+    section
+    {
+        padding: 20px;
+    }
+    .menu .content
+    {
+        margin-top: 20px;
+    }
+    .menu .content .box
+    {
+        margin:10px;
+    }
+    .menu .content .box .imgBx
+    {
+        height: 260px;
+    }
+    .title
+    {
+        text-align: center;
+    }
+    .titleText
+    {
+        font-size: 1.8em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-icon {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left:25%;
+    color:#ebebeb;
+  }
+
+  .dropdown-content a {
+    font-family: 'Nunito', sans-serif;
+    color: #233862;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+  color:rgb(216, 135, 48);
+  /* background-color: #9aa5acb6; */
+  }
+
+
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-icon  {
+    display: block;
+  }
+
+
