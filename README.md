@@ -87,7 +87,8 @@ Kampung Desa Clinic System
 
 
 ## Sequence Diagram
-![Appoinment](https://user-images.githubusercontent.com/103871912/173393440-e4aa46a4-ea4f-458b-8e72-7b7e1317efb4.jpg)
+![erd](https://user-images.githubusercontent.com/103871912/173637598-20e2f8d8-651b-40ae-9715-910139a27586.jpg)
+
 
 
 ## Mockup
