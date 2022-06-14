@@ -14,7 +14,7 @@
             background-color: white;
             padding: 20px;
             margin-top: 10px;
-            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);}
         </style>
 
     </head>
