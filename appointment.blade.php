@@ -110,7 +110,7 @@
                 </form>
                 <?php
                 $sql = "INSERT INTO appointment (date, time)
-                VALUES ('John', 'Doe', 'john@example.com');";
+                VALUES ('Date', 'Time');";
 
                 if ($conn->multi_query($sql) === TRUE) {
                   echo "Appointment booked";
