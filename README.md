@@ -89,40 +89,40 @@ Kampung Desa Clinic System
 ![Appoinment](https://user-images.githubusercontent.com/103871912/173637835-23c1bd69-25bb-419f-8379-6e34179050f7.jpg)
 
 ## Web Interface
-###Login Page
+### Login Page
 ![screencapture-127-0-0-1-8000-login-2022-06-15-14_10_44](https://user-images.githubusercontent.com/103871912/173755263-c0a3f6f5-6405-48cf-a344-c3cece60966b.png)
 
-###Register Page
+### Register Page
 ![Opera Snapshot_2022-06-15_141059_127 0 0 1](https://user-images.githubusercontent.com/103871912/173755319-16526f67-7192-44bd-9893-04e456be7496.png)
 
-###Reset Password Page
+### Reset Password Page
 ![Opera Snapshot_2022-06-15_141115_127 0 0 1](https://user-images.githubusercontent.com/103871912/173755345-af897840-90e6-4a13-b782-bb6e883d9474.png)
 
-###Home Page
+### Home Page
 ![Clinic _ Homepage_page-0001](https://user-images.githubusercontent.com/103871912/173756249-16ecf765-25f0-4165-87f7-974220e06b96.jpg)
 
-###Appointment Page
+### Appointment Page
 ![screencapture-127-0-0-1-8000-appointment-2022-06-15-14_04_36](https://user-images.githubusercontent.com/103871912/173756306-01558e79-89c5-436d-921c-1d3554f22ab4.png)
 
-###Add appointment Page
+### Add appointment Page
 ![Opera Snapshot_2022-06-15_140820_127 0 0 1](https://user-images.githubusercontent.com/103871912/173756357-8b0a9682-be13-4b84-b53f-9101fa0018be.png)
 
-###Health Assessment Page
+### Health Assessment Page
 ![screencapture-127-0-0-1-8000-assessment-2022-06-15-14_08_35](https://user-images.githubusercontent.com/103871912/173756374-f0f60ada-d009-4520-adca-2f014c58fd49.png)
 
-###Health Record Page
+### Health Record Page
 ![screencapture-127-0-0-1-8000-record-2022-06-15-14_08_57](https://user-images.githubusercontent.com/103871912/173756396-f1bb1602-292b-4359-9c31-f18661b5297e.png)
 
-###New Patient Page
+### New Patient Page
 ![Opera Snapshot_2022-06-15_140913_127 0 0 1](https://user-images.githubusercontent.com/103871912/173756431-fe35f912-5fd3-4923-a87e-449df65d88f7.png)
 
-###Medicine Info Page
+### Medicine Info Page
 ![screencapture-127-0-0-1-8000-medicine-2022-06-15-14_09_27](https://user-images.githubusercontent.com/103871912/173756450-d26d7960-f713-4ccf-845b-ab9d745cd638.png)
 
-###Profile Page
+### Profile Page
 ![screencapture-127-0-0-1-8000-profile-2022-06-15-14_09_54](https://user-images.githubusercontent.com/103871912/173756533-2f578b55-e250-4ffb-a325-6df2ae87f8a3.png)
 
-###About Page
+### About Page
 ![screencapture-127-0-0-1-8000-about-2022-06-15-14_10_24](https://user-images.githubusercontent.com/103871912/173756547-3f00bbfd-9ca0-435a-b425-89731042ff70.png)
 
 ## Proposal Presentation
