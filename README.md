@@ -26,7 +26,7 @@ Kampung Desa Clinic System
 3. Preview health record
 4. Preview health assessment
 5. Preview medicine information
-6. Book appointments
+6. Book appointment
 7. Preview staff profile
 8. Edit staff profile
 9. Preview about the system
