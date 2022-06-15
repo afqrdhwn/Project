@@ -22,10 +22,10 @@ Kampung Desa Clinic System
   
 ## Features and Functionalities
 1. Register staff
-2. Register new patients
+2. Register new patient
 3. Preview health record
 4. Preview health assessment 
-5. Preview medicine informations
+5. Preview medicine information
 6. Book appointments
 7. Preview staff profile
 8. Edit staff profile
