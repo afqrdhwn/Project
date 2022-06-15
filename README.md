@@ -88,14 +88,42 @@ Kampung Desa Clinic System
 ## Sequence Diagram
 ![Appoinment](https://user-images.githubusercontent.com/103871912/173637835-23c1bd69-25bb-419f-8379-6e34179050f7.jpg)
 
-## Mockup
-![Sign Up](https://user-images.githubusercontent.com/104018700/170817496-68dd1e5a-2d65-4fb0-bb3c-f56e8336a1d9.png)
-![LoginPHP](https://user-images.githubusercontent.com/104018700/170817490-5a4cdbb4-7b7e-44bd-8c8c-508e8d64642c.png)
-![AppointmentPHP](https://user-images.githubusercontent.com/104018700/170817484-5b0cbdbb-bc8f-4d4a-9d3f-f63a03f3410e.png)
-![Health Assesment](https://user-images.githubusercontent.com/104018700/170817486-2c0b8f99-b70d-44ac-843d-97bca1b61fca.png)
-![Health Record](https://user-images.githubusercontent.com/104018700/170817489-a1420e34-1ab7-4a70-a4f4-f691db4d4e6d.png)
-![Medicine Info](https://user-images.githubusercontent.com/104018700/170817494-0f72d282-77f0-4843-80dc-e0bba3c2f4b8.png)
-![LogoutPHP](https://user-images.githubusercontent.com/104018700/170817493-dcdb544a-5c1c-4d15-b9e3-dd65fba0aea2.png)
+## Web Interface
+###Login Page
+![screencapture-127-0-0-1-8000-login-2022-06-15-14_10_44](https://user-images.githubusercontent.com/103871912/173755263-c0a3f6f5-6405-48cf-a344-c3cece60966b.png)
+
+###Register Page
+![Opera Snapshot_2022-06-15_141059_127 0 0 1](https://user-images.githubusercontent.com/103871912/173755319-16526f67-7192-44bd-9893-04e456be7496.png)
+
+###Reset Password Page
+![Opera Snapshot_2022-06-15_141115_127 0 0 1](https://user-images.githubusercontent.com/103871912/173755345-af897840-90e6-4a13-b782-bb6e883d9474.png)
+
+###Home Page
+![Clinic _ Homepage_page-0001](https://user-images.githubusercontent.com/103871912/173756249-16ecf765-25f0-4165-87f7-974220e06b96.jpg)
+
+###Appointment Page
+![screencapture-127-0-0-1-8000-appointment-2022-06-15-14_04_36](https://user-images.githubusercontent.com/103871912/173756306-01558e79-89c5-436d-921c-1d3554f22ab4.png)
+
+###Add appointment Page
+![Opera Snapshot_2022-06-15_140820_127 0 0 1](https://user-images.githubusercontent.com/103871912/173756357-8b0a9682-be13-4b84-b53f-9101fa0018be.png)
+
+###Health Assessment Page
+![screencapture-127-0-0-1-8000-assessment-2022-06-15-14_08_35](https://user-images.githubusercontent.com/103871912/173756374-f0f60ada-d009-4520-adca-2f014c58fd49.png)
+
+###Health Record Page
+![screencapture-127-0-0-1-8000-record-2022-06-15-14_08_57](https://user-images.githubusercontent.com/103871912/173756396-f1bb1602-292b-4359-9c31-f18661b5297e.png)
+
+###New Patient Page
+![Opera Snapshot_2022-06-15_140913_127 0 0 1](https://user-images.githubusercontent.com/103871912/173756431-fe35f912-5fd3-4923-a87e-449df65d88f7.png)
+
+###Medicine Info Page
+![screencapture-127-0-0-1-8000-medicine-2022-06-15-14_09_27](https://user-images.githubusercontent.com/103871912/173756450-d26d7960-f713-4ccf-845b-ab9d745cd638.png)
+
+###Profile Page
+![screencapture-127-0-0-1-8000-profile-2022-06-15-14_09_54](https://user-images.githubusercontent.com/103871912/173756533-2f578b55-e250-4ffb-a325-6df2ae87f8a3.png)
+
+###About Page
+![screencapture-127-0-0-1-8000-about-2022-06-15-14_10_24](https://user-images.githubusercontent.com/103871912/173756547-3f00bbfd-9ca0-435a-b425-89731042ff70.png)
 
 ## Proposal Presentation
 https://youtu.be/Yc7YArIsyFY
