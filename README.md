@@ -21,15 +21,15 @@ Kampung Desa Clinic System
 3. Optimize work and data flow
   
 ## Features and Functionalities
-1.Register staff
-2.Register new patient
-3.Preview health record
-4.Preview health assessment
-5.Preview medicine information
-6.Book appointments
-7.Preview staff profile
-8.Edit staff profile
-9.Preview about the system
+1. Register staff
+2. Register patient
+3. Preview health record
+4. Preview health assessment
+5. Preview medicine information
+6. Book appointments
+7. Preview staff profile
+8. Edit staff profile
+9. Preview about the system
 
 ## Description
   The views file will contain the homepage and the welcome page. On visiting the website, visitors are routed to the welcome page where they are presented with a loh in form along with a sign up option. Upon logging in, the user are brought to the home page , in this page, users are able to choose their prefered page to go to. A top navigation bar is also provided for users to navigate to medicine info, new patient, appointment, homepage, health assessment and health record. There is also a dropdown bar for users to go to their profile, about the system and allow the users to log out.
