@@ -32,7 +32,7 @@ Kampung Desa Clinic System
 9. Preview about the system
 
 ## Description
-  The views file will contain the homepage and the welcome page. On visiting the website, visitors are routed to the welcome page where they are presented with a loh in form along with a sign up option. Upon logging in, the user are brought to the home page , in this page, users are able to choose their prefered page to go to. A top navigation bar is also provided for users to navigate to medicine info, new patient, appointment, homepage, health assessment and health record. There is also a dropdown bar for users to go to their profile, about the system and allow the users to log out.
+On visiting the website, visitors are routed to the welcome page where they are presented with a log in form along with a sign up option. Upon logging in, the user are brought to the home page , in this page, users are able to choose their prefered page to go to. A top navigation bar is also provided for users to navigate to medicine info, new patient, appointment, homepage, health assessment and health record. There is also a dropdown bar on mouse hover on the logo for users to go to their profile, about the system and allow the users to log out.
   
 ### Views
 - layouts/app.blade.php
