@@ -13,7 +13,7 @@ Kampung Desa Clinic System
 ## Introduction
   Today's technologies are better than yesterday. Technology evolves and improves on a daily basis. Between urban and rural areas, there is a technological divide. Nearly every day, we improve our science and technology in urban areas. However, they are still 2010 in rural areas. For example, the medical institution still stores information in files and on paper. This should be a matter of concern, and attention should be paid to it. Data stored in files and paper can cause data loss, fraud, and big data problem. 
   
-  This concept focuses on creating a web application for a clinic in a rural region, as well as a platform that provides services to the employees. For example, in addition to being able to monitor employees, patients data can be stored  with this web application. In remote areas, medical centres still maintain a paper-based system, which this system may replace and make it easier for staff and customers.
+  This concept focuses on creating a web application for a clinic in a rural region, as well as a platform that provides services to the employees. For example, in addition to being able to manage employees, patients data can be easily monitored, accessed and searched with this web application. In remote areas, medical centres still maintain a paper-based system, which this system may replace and make it easier for staff and customers.
   
 ## Objective 
 1. Improve data storing
